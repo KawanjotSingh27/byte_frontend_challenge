@@ -1,0 +1,26 @@
+#main{
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    gap: 10px;
+}
+
+#poem{
+    height:100px;
+    width:700px;
+}
+
+#author{
+    height:30px;
+    width:700px;
+}
+
+button{
+    width:200px;
+    height:40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border:0;
+    background-color: #61c9f2;
+    border-radius: 20px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style_dashboard.css" rel="stylesheet">
+</head>
+<body>
+    <h1>User Details</h1>
+    <div id="user_details"></div>
+
+    <div id="poem_display"></div>
+
+    <div id="submit_poem">
+        <h1>Submit a Poem</h1>
+        <form id="poemForm">
+            <div id="main">
+                <label for="poem">Poem:</label>
+                <textarea id="poem" name="poem" required></textarea>
+
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+                
+                <button type="submit">Submit Poem</button>
+            </div>
+        </form>
+    </div>
+        
+    <script src="dashboard.js"></script>
+</body>
+</html>
