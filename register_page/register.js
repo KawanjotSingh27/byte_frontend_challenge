@@ -25,7 +25,7 @@ register_form.addEventListener("submit", async function(e){
         let result=await response.json();
         alert(result.message);
         if(result.message=="User Created Successfully"){
-          window.location.href = "login.html";
+          window.location.href = "/login_page/login.html";
         }
     }
     catch(err){

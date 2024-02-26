@@ -17,7 +17,7 @@ login_form.addEventListener("submit", async function(e){
 
         localStorage.setItem("email",result.access);
         if(Object.keys(result).length==2){
-            window.location.href="dashboard.html";
+            window.location.href="/dashboard_page/dashboard.html";
         }
         else{
             alert("User does not exist");

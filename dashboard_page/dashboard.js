@@ -77,7 +77,7 @@ poem_form.addEventListener("submit", async function(e){
       let result=await response.json();
 
       if(result.message=="Poem created successfully"){
-        window.location.href="dashboard.html"
+        window.location.href="/dashboard_page/dashboard.html"
       }
   }
   catch(err){
