@@ -19,8 +19,47 @@ button{
     width:200px;
     height:40px;
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: monospace;
     border:0;
     background-color: #61c9f2;
     border-radius: 20px;
+}
+
+#poem_display{
+    display:flex;
+    flex-wrap: wrap;
+    gap:20px;
+    font-family: monospace, sans-serif;
+}
+
+#poem_display p{
+    font-size: 20px;
+}
+
+#poem_display div{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    padding:10px;
+}
+
+#poem_display,#user_main,#submit_poem{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:1500px;
+    margin:28px 0;
+    padding:20px;
+}
+
+#user_main{
+    font-family: Andale Mono, monospace;
+}
+
+label{
+    font-size: 25px;
+}
+
+input,textarea{
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
 }

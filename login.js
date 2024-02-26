@@ -19,6 +19,9 @@ login_form.addEventListener("submit", async function(e){
         if(Object.keys(result).length==2){
             window.location.href="dashboard.html";
         }
+        else{
+            alert("User does not exist");
+        }
     }
     catch(err){
         console.log(err.message);
